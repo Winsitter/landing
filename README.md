@@ -2,6 +2,8 @@ landing
 =======
 
 Homepage redesign to static single-page (ok maybe a few more) site
+qa: http://landing-qa.azurewebsites.net/
+
 
 origionally based on bootstrap 3 carousel example
 https://github.com/twbs/bootstrap/tree/master/examples/carousel
