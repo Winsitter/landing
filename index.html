@@ -45,15 +45,20 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a>
+                                <li class="active">
+                                    <a href="#">Home</a>
                                 </li>
-                                <li><a href="#about">About Us</a>
+                                <li>
+                                    <a href="#details">Details</a>
                                 </li>
-                                <li><a href="#details">Details</a>
+                                <li>
+                                    <a href="http://blog.winsitter.com">The Heartbeat Blog</a>
                                 </li>
-                                <li><a href="#blog">The Heartbeat Blog</a>
+                                <li>
+                                    <a href="#about">About Us</a>
                                 </li>
-                                <li><a href="#support">Support</a>
+                                <li>
+                                    <a href="#support">Support</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,13 +72,29 @@
     <!-- Header
     ================================================== -->
     <div id="header">
+        <!--
         <div id="header_inner">
             <h1>RELAX! Prevent Downtime with Automatic Windows Server Monitoring</h1>
             <h2>Join Our Free Beta to Monitor Your Servers In 5 Minutes!</h2>
             <p>It's a few easy steps to monitor your onsite, hosted, and cloud Windows Servers...</p>
             <br />
-            <p><a id="btnSignUp" href="#" role="button">Sign up today</a>
+            <p>
+                <a id="btnSignUp" href="#" role="button">Sign up today</a>
             </p>
+        </div>
+-->
+        <div class="container" id="header_inner">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Relax! Winsitter is here to help.</h1>
+                    <h2>Simple, comphrensive Windows monitoring in minutes.</h2>
+
+                    <br />
+                    <p>
+                        <a id="btnSignUp" href="https://dashboard.winsitter.com" role="button">Sign up today</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- /.header -->
@@ -84,34 +105,43 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container marketing" id="details">
 
         <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-circle" src="/images/1.jpg" alt="Generic placeholder image">
+        <div class="row ">
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="/images/1.jpg " alt="Generic placeholder image ">
                 <h2>Actually Prevent Downtime??</h2>
                 <p>Yep. We alert you of many conditions before they become an outage. SSL certificate expiration, RAM/CPU/Drive capacity, disk I/O, Kerberos time checks... and more. Warnings come as emails and SMS before it becomes an outage issue.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <!--
+                <p>
+                    <a class="btn btn-default " href="# " role="button ">View details &raquo;</a>
                 </p>
+-->
             </div>
             <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <img class="img-circle" src="/images/2.jpg" alt="Generic placeholder image">
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="/images/2.jpg " alt="Generic placeholder image ">
                 <h2>But Why?</h2>
                 <p>We love Windows. But let’s face it, it’s still difficult for busy admins to get notified of common every-day server issues.</p>
                 <p>We created Winsitter in a way that removes complexity and geekiness of our monitoring solution so anyone can signup, install the agent, and sleep better knowing they’ll be notified of issues before users notify them.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <!--
+                <p>
+                    <a class="btn btn-default " href="# " role="button ">View details &raquo;</a>
                 </p>
+-->
             </div>
             <!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <img class="img-circle" src="/images/3.jpg" alt="Generic placeholder image">
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="/images/3.jpg " alt="Generic placeholder image ">
                 <h2>Windows Server Monitoring as a Service</h2>
                 <p>If you are able to install our tiny agent on Windows, then you can start monitoring it within minutes.</p>
                 <p>Our smarty-smart robots do all the analysis and only report back to you when there are current issues or potental ones. You get to do more fun stuff with all your new free time!
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-                    </p>
+                    <!--
+                    <p>
+    <a class="btn btn-default " href="# " role="button ">View details &raquo;</a>
+</p>
+-->
             </div>
             <!-- /.col-lg-4 -->
         </div>
@@ -120,58 +150,85 @@
 
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider ">
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Free edition with
-                    <span class="text-muted">Amazingly Fast Install</span>
+        <div class="row featurette ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading ">Free edition with
+                    <span class="text-muted ">Amazingly Fast Install</span>
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="/images/big1.jpg" alt="Generic placeholder image">
+            <div class="col-md-5 ">
+                <img class="featurette-image img-responsive " src="/images/big1.jpg " alt="Generic placeholder image ">
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider ">
 
-        <div class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="/images/big2.jpg" alt="Generic placeholder image">
+        <div class="row featurette ">
+            <div class="col-md-5 ">
+                <img class="featurette-image img-responsive " src="/images/big2.jpg " alt="Generic placeholder image ">
             </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Ever increasing list of
-                    <span class="text-muted">things we monitor on each server</span>
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading ">Ever increasing list of
+                    <span class="text-muted ">things we monitor on each server</span>
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider ">
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">No additional infrastructure
-                    <span class="text-muted">to use Winsitter</span>
+        <div class="row featurette ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading ">No additional infrastructure
+                    <span class="text-muted ">to use Winsitter</span>
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="/images/big3.jpg" alt="Generic placeholder image">
+            <div class="col-md-5 ">
+                <img class="featurette-image img-responsive " src="/images/big3.jpg " alt="Generic placeholder image ">
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider ">
 
         <!-- /END THE FEATURETTES -->
+
+        <div id="about " class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <h3>Bret Fisher</h3>
+                    <strong>Chief Executive Officer</strong>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eveniet sapiente ipsam suscipit expedita consectetur recusandae impedit porro sunt a eligendi aspernatur est distinctio qui perferendis provident nihil sequi aut.</p>
+                    <a href="https://twitter.com/BretFisher" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @BretFisher</a>
+                </div>
+                <div class="col-md-6 ">
+                    <h3>Kevin Griffin</h3>
+                    <strong>Chief Technology Officer</strong>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eveniet sapiente ipsam suscipit expedita consectetur recusandae impedit porro sunt a eligendi aspernatur est distinctio qui perferendis provident nihil sequi aut.</p>
+                    <a href="https://twitter.com/1kevgriff" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @1kevgriff</a>
+                </div>
+            </div>
+        </div>
 
 
         <!-- FOOTER -->
         <footer>
-            <p class="pull-right"><a href="#">Back to top</a>
+            <p class="pull-right ">
+                <a href="# ">Back to top</a>
             </p>
-            <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+            <p>&copy; 2013-2014 Winsitter, Inc. &middot;
+                <a href="# ">Privacy</a>&middot;
+                <a href="# ">Terms</a>
             </p>
         </footer>
 
@@ -182,9 +239,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <script src="holder.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js "></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js "></script>
+    <script src="holder.js "></script>
+
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
 </body>
 
 </html>

@@ -2,7 +2,8 @@
 -------------------------------------------------- */
 
 /* Padding below the footer and lighter body text */
- body {
+
+body {
     padding-bottom: 40px;
     color: #5a5a5a;
 }
@@ -10,7 +11,8 @@
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
- .navbar-wrapper {
+
+.navbar-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +20,8 @@
     z-index: 20;
 }
 /* Flip around the padding for proper display in narrow viewports */
- .navbar-wrapper .container {
+
+.navbar-wrapper .container {
     padding-left: 0;
     padding-right: 0;
 }
@@ -31,10 +34,12 @@
 }
 /* CUSTOMIZE THE HEADER
 -------------------------------------------------- */
+
 #header {
     background-image: url(/images/top_bkg.jpg);
     background-repeat: repeat;
 }
+/*
 #header_inner {
     height: 500px;
     width: 1170px;
@@ -45,8 +50,18 @@
     padding-left: 20px;
     background-image: url(/images/top.png);
 }
+*/
+
+#header_inner {
+    background-image: url(/images/top_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
 #header_inner h1 {
-  font-size: 46px;
+    font-size: 46px;
     color: white;
     width: 585px;
     text-shadow: 1px 1px 3px #ffffff;
@@ -75,28 +90,27 @@
     /* IE10+ */
     background: linear-gradient(to bottom, #f58b1b 90%, #b3480e 98%);
     /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f58b1b', endColorstr='#b3480e', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f58b1b', endColorstr='#b3480e', GradientType=0);
     /* IE6-9 */
-
     font-size: 12pt;
     font-weight: bold;
     color: white;
-
     padding: 10px 30px;
     border-radius: 5px;
-
     margin-top: 10px;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Pad the edges of the mobile views a bit */
- .marketing {
+
+.marketing {
     padding-left: 15px;
     padding-right: 15px;
 }
 /* Center align the text within the three columns below the carousel */
- .marketing .col-lg-4 {
+
+.marketing .col-lg-4 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -109,19 +123,30 @@
 }
 /* Featurettes
 ------------------------- */
- .featurette-divider {
+
+.featurette-divider {
     margin: 80px 0;
     /* Space out the Bootstrap <hr> more */
 }
 /* Thin out the marketing headings */
- .featurette-heading {
+
+.featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
- @media (min-width: 768px) {
+
+@media (min-width: 768px) {
+    #header_inner {
+        background-image: url(/images/top_2.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 500px;
+        padding-top: 100px;
+        margin-bottom: 60px;
+    }
     /* Remove the edge padding needed for mobile */
     .marketing {
         padding-left: 0;
