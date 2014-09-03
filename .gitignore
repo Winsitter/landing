@@ -68,6 +68,5 @@ node_modules/
 bower_components/
 *.log
 
-### SSG Metalsmith ###
-# build/
+build/
 dist/
