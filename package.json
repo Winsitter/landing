@@ -2,7 +2,7 @@
   "name": "landing",
   "version": "1.0.0",
   "description": "landing =======",
-  "main": "server.js",
+  "main": "",
   "dependencies": {
     "handlebars": "^2.0.0-beta.1",
     "metalsmith": "^0.10.0",
