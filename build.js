@@ -3,8 +3,11 @@ var Metalsmith  = require('metalsmith'),
     templates   = require('metalsmith-templates'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
+    watch       = require('metalsmith-watch'),
     drafts      = require('metalsmith-drafts'),
     Handlebars  = require('handlebars');
+
+var livereload = true; // need dev/prod logic
 
 var filecopy = function(from, to){
     return function(files, metalsmith, done){
@@ -15,6 +18,8 @@ var filecopy = function(from, to){
 };
 
 Metalsmith(__dirname)
+  .source('./source')
+  .destination('./output')
   .use(drafts()) // add "draft: true" to front-matter in .md files to make draft
   .use(collections({
     // p: {
@@ -41,5 +46,8 @@ Metalsmith(__dirname)
     directory: 'templates'
     }))
   // .use(filecopy('CNAMESRC', 'CNAME'))
-  .destination('./build')
+  // .use(watch({
+  //     pattern : '**/*',
+  //     livereload: livereload
+  //   }))
   .build(function(err) {if (err) throw err;})
