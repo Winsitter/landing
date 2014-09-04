@@ -7,7 +7,7 @@ var Metalsmith  = require('metalsmith'),
     drafts      = require('metalsmith-drafts'),
     Handlebars  = require('handlebars');
 
-var livereload = true; // need dev/prod logic
+var livereload = false; // need dev/prod logic
 
 var filecopy = function(from, to){
     return function(files, metalsmith, done){
@@ -46,8 +46,8 @@ Metalsmith(__dirname)
     directory: 'templates'
     }))
   // .use(filecopy('CNAMESRC', 'CNAME'))
-  // .use(watch({
-  //     pattern : '**/*',
-  //     livereload: livereload
-  //   }))
+  .use(watch({
+      pattern : '**/*',
+      livereload: livereload
+    }))
   .build(function(err) {if (err) throw err;})

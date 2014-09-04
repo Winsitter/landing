@@ -1,8 +1,8 @@
 {
   "name": "landing",
-  "version": "1.0.0",
-  "description": "landing =======",
-  "main": "",
+  "version": "2.0.0",
+  "description": "winsitter landing =======",
+  "private": true,
   "engines": {
     "node": "0.10.31"
   },
