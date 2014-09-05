@@ -31,7 +31,7 @@ Metalsmith(__dirname)
   }))
   .use(markdown())
   .use(permalinks({
-    pattern: ':collection/:title'
+    pattern: ':date/:stub'
   }))
   .metadata({
     partials: {
@@ -44,8 +44,8 @@ Metalsmith(__dirname)
     directory: './source/templates'
     }))
   // .use(filecopy('CNAMESRC', 'CNAME'))
-  // .use(watch({
-  //     pattern : '**/*',
-  //     livereload: false
-  //   }))
+  .use(watch({
+      pattern : '**/*',
+      livereload: false
+    }))
   .build(function(err) {if (err) throw err;})
