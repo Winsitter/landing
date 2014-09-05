@@ -180,7 +180,7 @@ body {
 }
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 60px;
   }
 }
 /* custom */
@@ -199,4 +199,7 @@ body {
 }
 .imgShadow {
   box-shadow: 10px 10px 5px #888888;
+}
+.fa-featurette {
+  font-size: 10em;
 }
