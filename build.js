@@ -7,8 +7,6 @@ var Metalsmith  = require('metalsmith'),
     drafts      = require('metalsmith-drafts'),
     Handlebars  = require('handlebars');
 
-var livereload = false; // need dev/prod logic
-
 var filecopy = function(from, to){
     return function(files, metalsmith, done){
         files[to] = files[from];
@@ -35,19 +33,19 @@ Metalsmith(__dirname)
   .use(permalinks({
     pattern: ':collection/:title'
   }))
-  // .metadata({
-  //   partials: {
-  //     header: 'header',
-  //     footer: 'footer'
-  //   }
-  // })
+  .metadata({
+    partials: {
+      header: 'header',
+      footer: 'footer'
+    }
+  })
   .use(templates({
     engine: 'handlebars',
-    directory: 'templates'
+    directory: './source/templates'
     }))
   // .use(filecopy('CNAMESRC', 'CNAME'))
   // .use(watch({
   //     pattern : '**/*',
-  //     livereload: livereload
+  //     livereload: false
   //   }))
   .build(function(err) {if (err) throw err;})
