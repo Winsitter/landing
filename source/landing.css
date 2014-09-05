@@ -183,9 +183,14 @@ body {
     margin-top: 120px;
   }
 }
+/* custom */
+
 #featureCheckList {
   font-size: 15pt;
 }
 .green {
   color: green;
+}
+.imgDropShadow {
+  box-shadow: 10px 10px 5px #888888;
 }
