@@ -5,24 +5,22 @@ var Metalsmith  = require('metalsmith'),
     permalinks  = require('metalsmith-permalinks'),
     watch       = require('metalsmith-watch'),
     drafts      = require('metalsmith-drafts'),
+    assets      = require('metalsmith-assets'),
     Handlebars  = require('handlebars');
 
-var filecopy = function(from, to){
-    return function(files, metalsmith, done){
-        files[to] = files[from];
-        delete files[from];
-        done();
-    };
-};
+// var filecopy = function(from, to){
+//     return function(files, metalsmith, done){
+//         files[to] = files[from];
+//         delete files[from];
+//         done();
+//     };
+// };
 
 Metalsmith(__dirname)
-  .source('./source')
-  .destination('./output')
+  // .source('./source')
+  // .destination('./output')
   .use(drafts()) // add "draft: true" to front-matter in .md files to make draft
   .use(collections({
-    // p: {
-    //   pattern: 'pages/*.md'
-    //  },
     posts: {
       pattern: 'posts/*.md',
       sortBy: 'date',
@@ -39,13 +37,10 @@ Metalsmith(__dirname)
       footer: 'footer'
     }
   })
-  .use(templates({
-    engine: 'handlebars',
-    directory: './source/templates'
-    }))
-  // .use(filecopy('CNAMESRC', 'CNAME'))
-  .use(watch({
-      pattern : '**/*',
-      livereload: false
-    }))
+  .use(assets({
+    source: './assets', // relative to the working directory
+    destination: './' // relative to the build directory
+  }))
+  .use(templates({engine:'handlebars'}))
+  // .use(watch())
   .build(function(err) {if (err) throw err;})

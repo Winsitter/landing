@@ -1,6 +1,6 @@
 ---
 title: The Heartbeat Blog
 stub: blog
-template: blog.hbs
+template: blog.html
 ---
 here's all your blog posts.

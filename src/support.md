@@ -1,6 +1,6 @@
 ---
 title: Winsitter Support
 stub: support
-template: page.hbs
+template: page.html
 ---
 here's all your support info.
