@@ -191,6 +191,12 @@ body {
 .green {
   color: green;
 }
-.imgDropShadow {
+.colorOfJoesPants {
+  color: rgb(20, 67, 112);
+}
+.colorOfWindows {
+  color: rgb(0, 175, 244);
+}
+.imgShadow {
   box-shadow: 10px 10px 5px #888888;
 }
