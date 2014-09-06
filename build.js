@@ -35,7 +35,8 @@ Metalsmith(__dirname)
   .metadata({
     partials: {
       header: 'header',
-      footer: 'footer'
+      footer: 'footer',
+      navbar: 'navbar'
     }
   })
   .use(assets({
