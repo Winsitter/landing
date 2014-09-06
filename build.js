@@ -6,6 +6,7 @@ var Metalsmith  = require('metalsmith'),
     watch       = require('metalsmith-watch'),
     drafts      = require('metalsmith-drafts'),
     assets      = require('metalsmith-assets'),
+    redirect    = require('metalsmith-redirect'),
     Handlebars  = require('handlebars');
 
 // var filecopy = function(from, to){
@@ -40,6 +41,15 @@ Metalsmith(__dirname)
   .use(assets({
     source: './assets', // relative to the working directory
     destination: './' // relative to the build directory
+  }))
+  .use(redirect({  // create any redirects, source: destination
+    '/windows-server-monitoring': '/',
+    '/about-us': '/#about',
+    '/category/heartbeat': '/blog',
+    '/why': '/',
+    '/how-we-built-winsitter': '/',  // like to replace
+    '/get-started': '/',
+    '/faq': '/'                      // need to replace
   }))
   .use(templates({engine:'handlebars'}))
   // .use(watch())
