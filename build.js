@@ -7,6 +7,7 @@ var Metalsmith  = require('metalsmith'),
     drafts      = require('metalsmith-drafts'),
     assets      = require('metalsmith-assets'),
     redirect    = require('metalsmith-redirect'),
+    sitemap     = require('./metalsmith-sitemap'), // https://github.com/ExtraHop/metalsmith-sitemap
     Handlebars  = require('handlebars');
 
 // var filecopy = function(from, to){
@@ -42,6 +43,18 @@ Metalsmith(__dirname)
   .use(assets({
     source: './assets', // relative to the working directory
     destination: './' // relative to the build directory
+  }))
+  .use(sitemap({
+    ignoreFiles: [/feed.xml/], // Matched files will be ignored
+    output: 'sitemap.xml', // The location where the final sitemap should be placed
+    urlProperty: 'sitemapUrl', // Key for URL property
+    modifiedProperty: 'modified', // Key for last modified property
+    changefreq: 'changefreq',  // always hourly daily weekly monthly yearly never
+    priority: 'priority', // from 0.0 to 1.0
+    defaults: { // You can provide default values for any property in here
+        priority: 0.5,
+        changefreq: 'weekly'
+    }
   }))
   .use(redirect({  // create any redirects, source: destination
     '/windows-server-monitoring': '/',
