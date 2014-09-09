@@ -1,9 +1,13 @@
 ---
 title: You Deserve a MDT Server
 stub: you-deserve-a-mdt-server
+sitemapUrl: "http://winsitter.com/   you-deserve-a-mdt-server"
 date:
-author: Bret Fisher
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 template: post.html
+author: Bret Fisher
 draft: true
 ---
 If I walked you through setting up a Windows 7 network deployment service and you realized how easy it was (assuming you knew the right buttons to click in the right order) I bet 90% of you would make one tomorrow so you could deploy (and image) at will.

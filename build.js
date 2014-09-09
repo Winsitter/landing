@@ -47,7 +47,7 @@ Metalsmith(__dirname)
   .use(sitemap({
     ignoreFiles: [/feed.xml/], // Matched files will be ignored
     output: 'sitemap.xml', // The location where the final sitemap should be placed
-    urlProperty: 'sitemapUrl', // Key for URL property
+    urlProperty: 'path', // Key for URL property
     modifiedProperty: 'modified', // Key for last modified property
     changefreq: 'changefreq',  // always hourly daily weekly monthly yearly never
     priority: 'priority', // from 0.0 to 1.0

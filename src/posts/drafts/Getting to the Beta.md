@@ -1,9 +1,13 @@
 ---
 title: Getting to the Beta
 stub: getting-to-the-beta
+sitemapUrl: "http://winsitter.com/  /getting-to-the-beta"
 date: 
-author: Bret Fisher
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 template: post.html
+author: Bret Fisher
 draft: true
 ---
 When you have an idea for a software product, it's all unicorns and rainbows at first.  Eventually (months) later you realize it's WAY more work then you expected just to get to v1.  Sometimes people give up at this point, or put stuff off to the point it stagnates and dies a slow death before ever seeing the light.

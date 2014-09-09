@@ -1,7 +1,11 @@
 ---
 title: Windows Server Monitoring As A Service
 stub: windows-server-monitoring-as-a-service
+sitemapUrl: "http://winsitter.com/2012/05/31/windows-server-monitoring-as-a-service"
 date: 2012-05-31
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 author: Bret Fisher
 template: post.html
 draft: false

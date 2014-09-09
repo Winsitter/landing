@@ -1,9 +1,13 @@
 ---
 title: How does the Winsitter agent do background updates?
 stub: how-does-the-winsitter-agent-do-background-updates
+sitemapUrl: "http://winsitter.com/2014/06/09/how-does-the-winsitter-agent-do-background-updates"
 date: 2014-06-09
-author: Kevin Griffin
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 template: post.html
+author: Kevin Griffin
 draft: false
 ---
 As we get closer to removing our beta tag, I wanted to take a couple minutes and discuss how Winsitter performs background updates.

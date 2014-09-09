@@ -1,9 +1,13 @@
 ---
 title: "Know Your Server's Broken... Before Your Users"
 stub: know-your-servers-broke-before-your-users
+sitemapUrl: "http://winsitter.com/2012/05/22/know-your-servers-broke-before-your-users"
 date: 2012-05-22
-author: Bret Fisher
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 template: post.html
+author: Bret Fisher
 draft: false
 ---
 Your at lunch, or worse, taking that much needed weekend getaway.  The phone rings and it's a VP from the office.  Somethings broken.  Maybe this time it's email, or a database, web site, file server, print queue... whatever it is... they know before you.  That sucks.

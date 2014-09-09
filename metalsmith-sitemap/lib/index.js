@@ -52,7 +52,7 @@ function plugin(options) {
             data.sitemap = data.sitemap || {};
 
             entry = _.defaults({
-                loc: resolve(data, options.urlProperty),
+                loc: 'http://winsitter.com/' + resolve(data, options.urlProperty),
                 lastmod: resolve(data, options.modifiedProperty),
                 changefreq: resolve(data, options.changefreq) || data.sitemap.changefreq,
                 priority: resolve(data, options.priority) || data.sitemap.priority

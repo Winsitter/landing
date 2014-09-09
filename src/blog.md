@@ -1,5 +1,5 @@
 ---
-title: Winsitter | The Heartbeat Blog
+title: The Heartbeat Blog
 stub: blog
 sitemapUrl: "http://winsitter.com/blog"
 changefreq: daily

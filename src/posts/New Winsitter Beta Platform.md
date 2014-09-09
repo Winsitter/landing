@@ -1,9 +1,13 @@
 ---
 title: New Winsitter Beta Platform
 stub: migration
+sitemapUrl: "http://winsitter.com/2014/02/11/migration"
 date: 2014-02-11
-author: Bret Fisher
+changefreq: weekly
+priority: 0.7
+css-template: blog.css
 template: post.html
+author: Bret Fisher
 draft: false
 ---
 Today we're announcing the release of our new platform. Lets just call it Beta 2.0. If feels similar to the old, but under the covers it's almost all new. It's a year in the making. Everything is easier to use and better at monitoring your most common Windows Server issues.
