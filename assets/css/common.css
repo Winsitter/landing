@@ -1,0 +1,26 @@
+body {
+  color: #5a5a5a;
+}
+
+/* changed container for page/blog */
+@media (min-width: 1200px) {
+  .my-container {
+    width: 970px;
+  }
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 10px 0;
+  color: #999;
+  /*text-align: center;*/
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
