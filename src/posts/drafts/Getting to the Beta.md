@@ -1,8 +1,7 @@
 ---
 title: Getting to the Beta
 stub: getting-to-the-beta
-sitemapUrl: "http://winsitter.com/  /getting-to-the-beta"
-date: 
+date:
 changefreq: weekly
 priority: 0.7
 css-template: blog.css

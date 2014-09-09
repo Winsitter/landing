@@ -1,7 +1,6 @@
 ---
 title: Winsitter Development Update for 12/7/2012
 stub: winsitter-development-update-for-1272012
-sitemapUrl: "http://winsitter.com/2012/12/07/winsitter-development-update-for-1272012"
 date: 2012-12-07
 changefreq: weekly
 priority: 0.7

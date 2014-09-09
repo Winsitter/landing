@@ -1,7 +1,6 @@
 ---
 title: "Know Your Server's Broken... Before Your Users"
 stub: know-your-servers-broke-before-your-users
-sitemapUrl: "http://winsitter.com/2012/05/22/know-your-servers-broke-before-your-users"
 date: 2012-05-22
 changefreq: weekly
 priority: 0.7

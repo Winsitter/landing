@@ -8,6 +8,7 @@ var Metalsmith  = require('metalsmith'),
     assets      = require('metalsmith-assets'),
     redirect    = require('metalsmith-redirect'),
     sitemap     = require('./metalsmith-sitemap'), // https://github.com/ExtraHop/metalsmith-sitemap
+    date        = require('metalsmith-build-date'),
     Handlebars  = require('handlebars');
 
 // var filecopy = function(from, to){
@@ -19,8 +20,7 @@ var Metalsmith  = require('metalsmith'),
 // };
 
 Metalsmith(__dirname)
-  // .source('./source')
-  // .destination('./output')
+  .use(date())  //use {{date}} in templates for build-date
   .use(drafts()) // add "draft: true" to front-matter in .md files to make draft
   .use(collections({
     posts: {

@@ -1,7 +1,6 @@
 ---
 title: "Winsitter: What's Next"
 stub: winsitter-whats-next
-sitemapUrl: "http://winsitter.com/2013/07/30/winsitter-whats-next"
 date: 2013-07-30
 changefreq: weekly
 priority: 0.7
