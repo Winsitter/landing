@@ -203,3 +203,8 @@ body {
 .fa-featurette {
   font-size: 10em;
 }
+.pricePop {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}

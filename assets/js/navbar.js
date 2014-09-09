@@ -14,6 +14,10 @@
       clearAllActive();
       addActiveClass("#navHome");
     },
+    'pricing': function() {
+      clearAllActive();
+      addActiveClass("#navPricing");
+    },
     'about': function() {
       clearAllActive();
       addActiveClass("#navAbout");
@@ -31,11 +35,17 @@
   if (currentPath == '/') {
     // set up scroll
     $(document).on("scroll", function() {
-      if ($("#about").visible(true)) {
+      var aboutVisible = $("#about").visible(true);
+      var pricingVisible = $("#pricing").visible(false);
+
+      if (pricingVisible) {
+        pathFunctions['pricing']();
+      } else if (aboutVisible) {
         pathFunctions['about']();
       } else {
         pathFunctions['home']();
       }
+      
     });
     pathFunctions['home']();
   } else if (currentPath.indexOf('support') == 1) {
