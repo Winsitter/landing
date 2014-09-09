@@ -1,7 +1,6 @@
 ---
 title: You Deserve a MDT Server
 stub: you-deserve-a-mdt-server
-sitemapUrl: "http://winsitter.com/   you-deserve-a-mdt-server"
 date:
 changefreq: weekly
 priority: 0.7

@@ -2,7 +2,6 @@
 title: FAQ
 name: FAQ
 stub: faq
-sitemapUrl: "http://winsitter.com/faq"
 changefreq: daily
 priority: 0.8
 css-template: page.css

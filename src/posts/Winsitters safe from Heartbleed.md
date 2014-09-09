@@ -1,7 +1,6 @@
 ---
 title: Winsitter's safe from Heartbleed
 stub: winsitters-safe-from-heartbleed
-sitemapUrl: "http://winsitter.com/2014/04/11/winsitters-safe-from-heartbleed"
 date: 2014-04-11
 changefreq: weekly
 priority: 0.7

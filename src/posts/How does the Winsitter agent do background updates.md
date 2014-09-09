@@ -1,7 +1,6 @@
 ---
 title: How does the Winsitter agent do background updates?
 stub: how-does-the-winsitter-agent-do-background-updates
-sitemapUrl: "http://winsitter.com/2014/06/09/how-does-the-winsitter-agent-do-background-updates"
 date: 2014-06-09
 changefreq: weekly
 priority: 0.7

@@ -1,7 +1,6 @@
 ---
 title: "Monitor Your Windows Servers: Mobile Alerts for Onsite, Hosted, and Cloud In Only 5 Minutes"
 date:
-sitemapUrl: "http://winsitter.com"
 changefreq: daily
 priority: 0.8
 css-template: landing.css

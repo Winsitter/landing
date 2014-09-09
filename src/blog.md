@@ -1,7 +1,6 @@
 ---
 title: The Heartbeat Blog
 stub: blog
-sitemapUrl: "http://winsitter.com/blog"
 changefreq: daily
 priority: 0.8
 css-template: blog.css

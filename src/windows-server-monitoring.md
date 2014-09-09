@@ -1,7 +1,6 @@
 ---
 title: Windows Server Monitoring As A Service
 stub: windows-server-monitoring
-sitemapUrl: "http://winsitter.com/windows-server-monitoring"
 changefreq: weekly
 priority: 0.8
 css-template: page.css

@@ -1,7 +1,6 @@
 ---
 title: How We Built Winsitter
 stub: how-we-built-winsitter
-sitemapUrl: "http://winsitter.com/how-we-built-winsitter"
 changefreq: weekly
 priority: 0.8
 css-template: page.css

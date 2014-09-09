@@ -1,7 +1,6 @@
 ---
 title: New Winsitter Beta Platform
 stub: migration
-sitemapUrl: "http://winsitter.com/2014/02/11/migration"
 date: 2014-02-11
 changefreq: weekly
 priority: 0.7
