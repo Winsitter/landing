@@ -48,7 +48,7 @@ Metalsmith(__dirname)
     ignoreFiles: [/(.*.png)|(.*.gif)|(.*.jpg)|(.*.css)|(.*.xml)|(.*.js)|(.*.ico)/], // Matched files will be ignored
     output: 'sitemap.xml', // The location where the final sitemap should be placed
     urlProperty: 'path', // Key for URL property
-    hostname: 'http://winsitter.co',
+    hostname: 'http://winsitter.com/',
     modifiedProperty: 'modified', // Key for last modified property
     changefreq: 'changefreq',  // always hourly daily weekly monthly yearly never
     priority: 'priority', // from 0.0 to 1.0
@@ -64,7 +64,6 @@ Metalsmith(__dirname)
     '/why': '/',
     '/how-we-built-winsitter': '/',  // like to replace
     '/get-started': '/',
-    '/faq': '/'                      // need to replace
   }))
   .use(templates({engine:'handlebars'}))
   // .use(watch())
