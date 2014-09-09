@@ -1,6 +1,7 @@
 ---
 name: Why?
 stub: why
+css-template: page.css
 template: page.html
 draft: true
 ---

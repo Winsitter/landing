@@ -1,6 +1,7 @@
 ---
 title: How We Built Winsitter
 stub: how-we-built-winsitter
+css-template: page.css
 template: page.html
 draft: true
 ---

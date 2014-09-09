@@ -1,6 +1,8 @@
 ---
+title: Winsitter | FAQ
 name: FAQ
 stub: faq
+css-template: page.css
 template: page.html
 ---
 * **System Requirements?**

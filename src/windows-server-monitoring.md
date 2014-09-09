@@ -1,6 +1,7 @@
 ---
 title: Windows Server Monitoring As A Service
 stub: windows-server-monitoring
+css-template: page.css
 template: page.html
 draft: true
 ---
