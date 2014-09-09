@@ -204,7 +204,10 @@ body {
   font-size: 10em;
 }
 .twitterPicture {
-  
+
+}
+.quoted {
+  font-style: italic;
 }
 .pricePop {
   text-align: center;
