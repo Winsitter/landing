@@ -6,7 +6,7 @@ priority: 0.8
 css-template: page.css
 template: page.html
 ---
-### Here's some options for you (responses during U.S. waking hours):
+### Here are some options for you (responses during U.S. waking hours):
 
 * Log into the Dashboard and use our in-browser-chat (bottom right) to send a message now
 * Visit our [FAQ](/faq/) and find some answers
