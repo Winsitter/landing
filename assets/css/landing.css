@@ -155,8 +155,11 @@
 #featureCheckList {
   font-size: 15pt;
 }
-.green {
-  color: green;
+.wsOrange {
+  color: rgb(251, 141, 28);
+}
+.wsBlue {
+  color: rgb(29, 94, 150);
 }
 .colorOfJoesPants {
   color: rgb(20, 67, 112);
