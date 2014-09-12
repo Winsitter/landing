@@ -28,3 +28,6 @@ namespace administration operations.
 
 This is actually just an info event for 99% of us. I'm betting it's only a
 Warning because of the potential for delay if there is a "large" namespace.
+
+Problem is it fills up your event logs. We ignore this issue and recommend
+you do the same.
