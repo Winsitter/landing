@@ -1,0 +1,6 @@
+{
+  "watch": ["src/"],
+  "verbose": true,
+  "ext": "js md css jpg png ico html"
+
+}

@@ -67,4 +67,7 @@ Metalsmith(__dirname)
   }))
   .use(templates({engine:'handlebars'}))
   // .use(watch())
-  .build(function(err) {if (err) throw err;})
+  .build(function(err) {
+    if (err) throw err;
+    console.log("Done building Metalsmith");
+  });

@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "winsitter landing =======",
   "private": true,
+  "main": "server.js",
   "engines": {
     "node": "0.10.31"
   },
@@ -21,10 +22,14 @@
     "metalsmith-templates": "^0.5.2",
     "metalsmith-watch": "^0.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.9.0",
+    "watch": "^0.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "node build.js",
+    "start": "node build.js"
   },
   "repository": {
     "type": "git",
