@@ -2,7 +2,7 @@
 title: Winsitter Support
 stub: support
 changefreq: weekly
-priority: 0.8
+priority: 0.9
 css-template: page.css
 template: page.html
 ---

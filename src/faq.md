@@ -3,7 +3,7 @@ title: FAQ
 name: FAQ
 stub: faq
 changefreq: daily
-priority: 0.8
+priority: 0.9
 css-template: page.css
 template: page.html
 ---
