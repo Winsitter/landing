@@ -10,10 +10,8 @@ body {
 }
 
 
-/*
- * Footer
- */
-
+/* FOOTER
+-------------------------------------------------- */
 .blog-footer {
   padding: 10px 0;
   color: #999;
@@ -21,6 +19,15 @@ body {
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
 }
+.blog-footer .row {
+  text-align: center;
+}
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .blog-footer .row {
+    text-align: left;
+  }
 }

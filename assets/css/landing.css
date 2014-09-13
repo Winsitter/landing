@@ -1,3 +1,14 @@
+/* COMMON COLOR AND STYLES
+-------------------------------------------------- */
+.wsOrange {
+  color: rgb(251, 141, 28);
+}
+.wsBlue {
+  color: rgb(29, 94, 150);
+}
+.colorOfWindows {
+  color: rgb(0, 175, 244);
+}
 
 /* CUSTOMIZE THE HEADER
 -------------------------------------------------- */
@@ -42,6 +53,9 @@
 #header_inner p {
   color: #8abbeb;
 }
+
+/* SIGNUP BUTTON
+-------------------------------------------------- */
 #btnSignUp {
   background: #f58b1b;
   /* Old browsers */
@@ -66,6 +80,7 @@
   border-radius: 5px;
   margin-top: 10px;
 }
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -77,17 +92,19 @@
 }
 /* Center align the text within the three columns below the carousel */
 
-.marketing .col-lg-4 {
+.marketing .col-sm-4 {
   text-align: center;
   margin-bottom: 20px;
 }
 .marketing h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.marketing .col-sm-4 p {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
 /* Featurettes
 ------------------------- */
 
@@ -102,6 +119,31 @@
   line-height: 1;
   letter-spacing: -1px;
 }
+
+#featureCheckList {
+  font-size: 15pt;
+}
+.imgShadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+.fa-featurette {
+  font-size: 10em;
+}
+.twitterPicture {
+
+}
+.pricePop {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+#about .row {
+  text-align: center;
+}
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -144,45 +186,17 @@
   .featurette-heading {
     font-size: 50px;
   }
+  #about .row {
+    text-align: left;
+  }
+
 }
+
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 60px;
   }
-}
-/* custom */
-
-#featureCheckList {
-  font-size: 15pt;
-}
-.wsOrange {
-  color: rgb(251, 141, 28);
-}
-.wsBlue {
-  color: rgb(29, 94, 150);
-}
-.colorOfJoesPants {
-  color: rgb(20, 67, 112);
-}
-.colorOfWindows {
-  color: rgb(0, 175, 244);
-}
-.imgShadow {
-  box-shadow: 10px 10px 5px #888888;
-}
-.fa-featurette {
-  font-size: 10em;
-}
-.twitterPicture {
-
-}
-.quoted {
-  font-style: italic;
-}
-.pricePop {
-  text-align: center;
-  font-size: 60px;
-  font-weight: bold;
-
-  margin-bottom: -45px;
+  .pricePop {
+    margin-bottom: -45px;
+  }
 }
