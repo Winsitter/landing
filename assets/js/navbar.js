@@ -45,7 +45,7 @@
       } else {
         pathFunctions['home']();
       }
-      
+
     });
     pathFunctions['home']();
   } else if (currentPath.indexOf('support') == 1) {
@@ -53,4 +53,11 @@
   } else if (currentPath.indexOf('blog') == 1 || $("#isBlog").val() == "isBlog") {
     pathFunctions['blog']();
   }
+
+// scrollable menu fix in bootstrap 3.2.0, maybe fixed in 4.0
+// This makes it a fixed menu
+// https://github.com/twbs/bootstrap/issues/12738
+// http://stackoverflow.com/questions/19227496/scrollable-menu-with-bootstrap-3-menu-expanding-its-container-when-it-should-n
+$(".navbar-collapse").css({ maxHeight: $(window).height() - $(".navbar-header").height() + "px" });
+
 })();

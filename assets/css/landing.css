@@ -17,37 +17,25 @@
   background-image: url(/images/top_bkg.jpg);
   background-repeat: repeat;
 }
-/*
-#header_inner {
-    height: 500px;
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
-    padding-top: 100px;
-    padding-left: 20px;
-    background-image: url(/images/top.png);
-}
-*/
-
 #header_inner {
   background-image: url(/images/top_2.png);
-  background-position: center;
+  background-size: 300px;
+  background-position: bottom;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 425px;
   padding-top: 60px;
   margin-bottom: 60px;
 }
 #header_inner h1 {
-  font-size: 46px;
+  font-size: 35px;
   color: white;
-  width: 585px;
+  width: 100%;
   text-shadow: 1px 1px 3px #ffffff;
 }
 #header_inner h2 {
   color: white;
-  width: 585px;
-  font-size: 16pt;
+  width: 100%;
+  font-size: 14pt;
   font-weight: bold;
 }
 #header_inner p {
@@ -150,11 +138,20 @@
 @media (min-width: 768px) {
   #header_inner {
     background-image: url(/images/top_2.png);
+    background-size: 100%;
     background-position: right;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     padding-top: 60px;
     margin-bottom: 60px;
+  }
+  #header_inner h1 {
+    font-size: 46px;
+    width: 585px;
+  }
+  #header_inner h2 {
+    width: 585px;
+    font-size: 16pt;
   }
   /* Remove the edge padding needed for mobile */
   .marketing {
