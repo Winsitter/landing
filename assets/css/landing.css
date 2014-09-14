@@ -19,7 +19,7 @@
 }
 #header_inner {
   background-image: url(/images/top_2.png);
-  background-size: 300px;
+  background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
   height: 425px;
@@ -30,7 +30,7 @@
   font-size: 35px;
   color: white;
   width: 100%;
-  text-shadow: 1px 1px 3px #ffffff;
+  text-shadow: 1px 1px 3px black;
 }
 #header_inner h2 {
   color: white;
@@ -195,5 +195,12 @@
   }
   .pricePop {
     margin-bottom: -45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header_inner {
+    background-size: 80%;
+    /*height: 700px;*/
   }
 }
