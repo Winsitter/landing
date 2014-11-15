@@ -2,3 +2,10 @@
 body {
   padding-top: 50px;
 }
+
+/*main content*/
+.my-container {
+  font-size: 21px;
+  font-weight: 300;
+  
+}

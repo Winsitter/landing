@@ -1,10 +1,10 @@
-var watch     = require('watch');
-var fs        = require('fs');
+// var watch     = require('watch');
+// var fs        = require('fs');
 var express   = require('express');
 var app       = express();
 var exec      = require('child_process').exec;
 var webserver = './build';
-var source    = './src';
+// var source    = './src';
 
 exec('node ./build.js');
 app.use(express.static(webserver));

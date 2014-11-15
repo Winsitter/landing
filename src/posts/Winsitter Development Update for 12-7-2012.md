@@ -19,5 +19,5 @@ As we come closer to the launch of Winsitter, you should see dramatic speed incr
 
 Do you have a particular question about Winsitter you'd like to see answered here?  Let me know!
 
-<strong>Kevin Griffin</strong>
+**Kevin Griffin** 
 kevin@winsitter.com
