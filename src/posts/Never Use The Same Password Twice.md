@@ -7,7 +7,7 @@ priority: 0.7
 css-template: blog.css
 template: post.html
 author: Bret Fisher
-draft: true
+draft: false
 ---
 
 *This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
