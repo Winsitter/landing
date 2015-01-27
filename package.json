@@ -10,7 +10,7 @@
   "dependencies": {
     "handlebars": "^2.0.0",
     "lodash": "^2.4.1",
-    "metalsmith": "^1.0.1",
+    "metalsmith": "^1.1.1",
     "metalsmith-assets": "0.1.0",
     "metalsmith-build-date": "^0.1.0",
     "metalsmith-collections": "^0.6.0",
@@ -20,11 +20,10 @@
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-redirect": "1.0.2",
     "metalsmith-templates": "^0.6.0",
-    "metalsmith-watch": "^0.1.1"
+    "metalsmith-watch": "^0.2.0"
   },
   "devDependencies": {
-    "express": "^4.9.0",
-    "watch": "^0.13.0"
+    "express": "^4.11.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

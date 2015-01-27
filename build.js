@@ -3,7 +3,7 @@ var Metalsmith  = require('metalsmith'),
     templates   = require('metalsmith-templates'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
-    watch       = require('metalsmith-watch'),
+    // watch       = require('metalsmith-watch'), // replaced with nodemon
     drafts      = require('metalsmith-drafts'),
     assets      = require('metalsmith-assets'),
     redirect    = require('metalsmith-redirect'),
@@ -66,7 +66,7 @@ Metalsmith(__dirname)
     '/get-started': '/',
   }))
   .use(templates({engine:'handlebars'}))
-  // .use(watch())
+  // .use(watch())  // replaced with nodemon
   .build(function(err) {
     if (err) throw err;
     console.log("Done building Metalsmith");

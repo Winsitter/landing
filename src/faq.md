@@ -28,6 +28,8 @@ template: page.html
   * A tiny about of bandwidth.  Seriously…. think dial up modem stuff.
 * **Can Winsitter monitor without an agent?**
   * No. But we think that's a good thing. While many systems support using WMI and SNMP, we find the technical hurdles of implementing monitoring using those protocols too great for many businesses. There are lots of other monitoring tools that support "agent-less monitoring".  We have used many of those ourselves, and they do work, but we're going for a simpler and easier way to monitor.  We think a quick and easy install on each server is something everyone can do. Plus, by running locally we're not limited to what data WMI and SNMP can provide.
+* **Can the agent be installed with software deployment systems (SCCM) or GPO's?**
+  * Yes, you can silently install from the command line `msiexec /i http://agent.winsitter.com /quiet authcode="machineAuthenicationCode"`. Any errors will be sent to the Application Event Log.
 * **Can Winsitter monitor Windows XP, Vista, 7, 8, etc.?**
   * Yes, but Winsitter is meant for systems that need to be up and working. It's not designed for the on-again off-again nature of user PC's, but if you're using a Windows client OS to provide always-on services, Winsitter is great way to monitor it's health and availability.
   * Note that Winsitter will alert if a system goes offline suddenly, but if the OS shuts down gracefully, it will assume you meant to do that, and not warn. It will show as off in the Dashboard.

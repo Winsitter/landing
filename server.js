@@ -1,24 +1,14 @@
-// var watch     = require('watch');
-// var fs        = require('fs');
+// this file is autorun by nodemon via the package.json 'main' property
+
+// make basic web server for local dev
 var express   = require('express');
 var app       = express();
-var exec      = require('child_process').exec;
-var webserver = './build';
-// var source    = './src';
+var webserver = './build'; // output folder
 
-exec('node ./build.js');
+// run metalsmith
+var metalsmith = require('./build.js');
+
+// start web server
 app.use(express.static(webserver));
 app.listen(8080);
 console.log('Listening on port 8080');
-
-//
-// watch.watchTree(source,{ignoreDotFiles: true},function () {
-//   , function(error, stdout, stderr) {
-//       console.log('file changed, building...');
-//       console.log('stdout: ' + stdout);
-//       console.log('stderr: ' + stderr);
-//       if (error !== null) {
-//           console.log('exec error: ' + error);
-//       }
-//   });
-// });

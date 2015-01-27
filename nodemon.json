@@ -1,6 +1,5 @@
 {
-  "watch": ["src/", "assets"],
-  "verbose": true,
+  "watch": ["src/", "assets", "templates", "build.js", "server.js"],
+  "verbose": false,
   "ext": "js md css jpg png ico html"
-
 }
