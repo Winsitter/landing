@@ -16,7 +16,7 @@ draft: false
 
 ---------------
 
-We all started using the same passwords because we had to remember them. Maybe you got advanced and started making "layers" of passwords where you had one for banking/email, another one for ecommerce, another for work, and an easy one for the rest. Layers, like an onion.
+We all started using the same passwords because we had to remember them. What, you can't remember 500 passwords? (we'll there's [that guy](http://en.wikipedia.org/wiki/Dave_Farrow)). Maybe you got advanced and started making "layers" of passwords where you had a hard one for banking/email, another medium one for work, and an easy one for the rest. Layers, like an onion.
 
 That was good in 2005.
 
