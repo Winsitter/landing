@@ -21,7 +21,7 @@ More information about each recommendation will be added as additional postings 
 ## 1. Never Use The Same Password Twice
 Summary: To protect against password theft, you need a different password for each website/app. Use a Password Manager ([LassPass](https://lastpass.com) recommended) to create and store unique passwords for each account.
 
-[Full Article](2015/01/27/never-use-the-same-password-twice/)
+[Full Article](/2015/01/27/never-use-the-same-password-twice/)
 
 ## 2. Long Passwords Rather Than "Strong"
 
