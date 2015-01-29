@@ -64,6 +64,7 @@ Metalsmith(__dirname)
     '/why': '/',
     '/how-we-built-winsitter': '/',  // like to replace
     '/get-started': '/',
+    '/securitytips': '/2015/01/26/9-internet-security-tips-for-humans/'
   }))
   .use(templates({engine:'handlebars'}))
   // .use(watch())  // replaced with nodemon
