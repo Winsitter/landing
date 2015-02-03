@@ -24,7 +24,7 @@ To limit the damage of password theft, you need a different password for each we
 [Full Article](/2015/01/27/never-use-the-same-password-twice/)
 
 ## 2. Long Passwords Rather Than "Strong"
-Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 15+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
+Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 13+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
 
 [Full Article](/2015/02/02/long-passwords-rather-than-strong/)
 

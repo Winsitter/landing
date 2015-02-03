@@ -12,7 +12,7 @@ draft: false
 
 *This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
 
->Summary: Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 15+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
+>Summary: Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 13+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
 
 -------------
 
@@ -24,7 +24,7 @@ But if I had to choose between a longer password or a more complex and random on
 
 Also, this may seem obvious, but don't use anything on the [worst passwords list](http://www.cnet.com/news/worst-passwords-of-2014-are-just-as-awful-as-you-can-imagine/), or any datapoint about you specifically, your birth date, name, etc.
 
-If you don't/can't use LastPass to generate your passwords, GRC has a [great autogenerator](https://www.grc.com/passwords.htm) for long random passwords. These are obviously not ment for memorizing. You'd have to store them somewhere.  
+If you don't/can't use [LastPass](https://lastpass.com) to generate your passwords, GRC has a [great autogenerator](https://www.grc.com/passwords.htm) for long random passwords. These are obviously not ment for memorizing. You'd have to store them somewhere.  
 
 You *could* use the GRC password generator in combination with your browsers built-in password storage. Not as good as LastPass, but better then nothing.
 
