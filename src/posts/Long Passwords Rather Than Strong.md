@@ -1,7 +1,7 @@
 ---
 title: Long Passwords Rather Than "Strong"
 stub: long-passwords-rather-than-strong
-date: 2015-01-27
+date: 2015-02-02
 changefreq: weekly
 priority: 0.7
 css-template: blog.css
