@@ -16,9 +16,9 @@ draft: false
 
 ---------------
 
-We all started using the same passwords because we had to remember them. What, you can't remember 500 passwords? (we'll there's [that guy](http://en.wikipedia.org/wiki/Dave_Farrow)). Maybe you got advanced and started making "layers" of passwords where you had a hard one for banking/email, another medium one for work, and an easy one for the rest. Layers, like an onion.
+We all started using the same passwords because we had to remember them. What, you can't remember 500 passwords? (we'll there's [that guy](http://en.wikipedia.org/wiki/Dave_Farrow)). Maybe you got advanced and started making "layers" of passwords where you had a hard one for banking, another kinda-hard one for work, and an easy one for the rest. Layers, like an onion.
 
-That was good in 2005.
+*That was good in 2005.*
 
 But now it's not a matter of *if* your password gets stollen, it's just *when*. In fact it's very likely that multiple passwords of yours *have* been stolen. ([check here](https://pwnedlist.com/query)) In the last few years passwords were snagged from LinkedIn, Last.fm, Gmail, eHarmony and Adobe, just to name a few.
 
