@@ -18,17 +18,17 @@ Many are easy. Some are hard. All are worth it. Ordered in priority of benefit t
 
 More information about each recommendation will be added as additional postings in the coming weeks.
 
-## 1. Never Use The Same Password Twice
-To limit the damage of password theft, you need a different password for each website/app. Use a Password Manager ([LassPass](https://lastpass.com) recommended) to create and store unique passwords for each account.
+## 1. [Never Use The Same Password Twice](/2015/01/27/never-use-the-same-password-twice/)
+>To limit the damage of password theft, you need a different password for each website/app. Use a Password Manager ([LassPass](https://lastpass.com) recommended) to create and store unique passwords for each account.
 
 [Full Article](/2015/01/27/never-use-the-same-password-twice/)
 
-## 2. Long Passwords Rather Than "Strong"
-Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 13+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
+## 2. [Long Passwords Rather Than "Strong"](/2015/02/02/long-passwords-rather-than-strong/)
+>Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 13+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
 
 [Full Article](/2015/02/02/long-passwords-rather-than-strong/)
 
-## 3. Protect your DNS
+## 3. [How to Protect Your Web Browsing](/2015/02/09/how-to-protect-your-web-browsing)
 
 >Summary: Use [OpenDNS](https://www.opendns.com/home-internet-security/opendns-ip-addresses/) as your DNS Servers on home routers and at work (if possible). It is easy to do, has no downside or extra lag, and will protect you from known malicious websites that intend to do your browser and computer harm (or scam you of your personal info). Do it today!
 
