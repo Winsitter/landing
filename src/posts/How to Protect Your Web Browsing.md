@@ -1,6 +1,6 @@
 ---
-title: Protect Your DNS
-stub: protect-your-dns
+title: How to Protect Your Web Browsing
+stub: how-to-protect-your-web-browsing
 date: 2015-02-09
 changefreq: weekly
 priority: 0.7

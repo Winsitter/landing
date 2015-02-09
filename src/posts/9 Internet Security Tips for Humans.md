@@ -32,7 +32,7 @@ Make your passwords longer and easier for you remember (or use a Password Manage
 
 >Summary: Use [OpenDNS](https://www.opendns.com/home-internet-security/opendns-ip-addresses/) as your DNS Servers on home routers and at work (if possible). It is easy to do, has no downside or extra lag, and will protect you from known malicious websites that intend to do your browser and computer harm (or scam you of your personal info). Do it today!
 
-[Full Article](/2015/02/09/protect-your-dns)
+[Full Article](/2015/02/09/how-to-protect-your-web-browsing)
 
 ## 4. Scan For Insecure Software (Windows)
 
