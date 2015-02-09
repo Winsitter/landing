@@ -33,3 +33,7 @@ More background info: [The Only Secure Password is the One You Can't Remember](h
 Have more ideas or issues this doesn't resolve? Use Comments below or [@BretFisher](http://twitter.com/bretfisher).
 
 Note: there is much debate about the strength of passwords in terms of random vs. non-random, or letters vs. words, or time it takes to crack one vs. other with various techniques. This isn't about that. This is about upping your password game, and making it harder (not impossible) for someone to guess them. Don't throw out the good in search of the perfect.
+
+-----
+
+> I'm Bret Fisher, the Co-Founder of [Winsitter](http://winsitter.com), a Windows Server monitoring and mobile alerting service. I also consult as a sysadmin and developer, have ~30 certifications, and spend my free time helping the community through [Code for America](http://codeforamerica.org) and local user groups. Find me at [@BretFisher](https://twitter.com/bretfisher) and http://bretfisher.com

@@ -60,4 +60,6 @@ Know of something I missed (other then Antivirus, which I still recommend)? Comm
 
 These guidelines are a balance (compromise) between "ultimate security" and "actually using it". Yes, not using the Internet is more secure. Yes, storing passwords in redundant physical vaults in paper form is *theoritcally safer*, but neither is *best* if no one does it. My goal here is to get you to actually *implement* these changes in your life, not give you the penultimate protection against all possible outcomes. Also, I'm not that smart.
 
-I'm Bret Fisher, the Co-Founder of [Winsitter](http://winsitter.com), a Windows Server monitoring and mobile alerting service. I also consult as a sysadmin and developer, have ~30 certifications, and spend my free time helping the community through Code for America and local user groups. Find me at [@BretFisher](https://twitter.com/bretfisher) and http://bretfisher.com
+-----
+
+> I'm Bret Fisher, the Co-Founder of [Winsitter](http://winsitter.com), a Windows Server monitoring and mobile alerting service. I also consult as a sysadmin and developer, have ~30 certifications, and spend my free time helping the community through [Code for America](http://codeforamerica.org) and local user groups. Find me at [@BretFisher](https://twitter.com/bretfisher) and http://bretfisher.com

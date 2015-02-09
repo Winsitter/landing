@@ -51,4 +51,4 @@ Let me know how it goes, or any questions you might have in the comments or at [
 
 -----
 
-> I'm Bret Fisher, the Co-Founder of [Winsitter](http://winsitter.com), a Windows Server monitoring and mobile alerting service. I also consult as a sysadmin and developer, have ~30 certifications, and spend my free time helping the community through Code for America and local user groups. Find me at [@BretFisher](https://twitter.com/bretfisher) and http://bretfisher.com
+> I'm Bret Fisher, the Co-Founder of [Winsitter](http://winsitter.com), a Windows Server monitoring and mobile alerting service. I also consult as a sysadmin and developer, have ~30 certifications, and spend my free time helping the community through [Code for America](http://codeforamerica.org) and local user groups. Find me at [@BretFisher](https://twitter.com/bretfisher) and http://bretfisher.com
