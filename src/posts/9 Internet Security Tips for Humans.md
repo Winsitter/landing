@@ -34,9 +34,12 @@ More information about each recommendation will be added as additional postings 
 
 [Full Article](/2015/02/09/how-to-protect-your-web-browsing)
 
-## 4. Scan For Insecure Software (Windows)
+## 4. How to Scan For Insecure Software
 
-Full Article Coming Soon.
+> Summary: Automatic Windows Updates aren't enough anymore. [Secunia PSI](http://secunia.com/products/consumer/) is fantastic free (for personal use) software for finding all the insecure software on your PC. Mark 30 minutes on your calendar every month to go through your major programs and check for updates.
+
+[Full Article](/2015/02/16/how-to-scan-your-computer-for-insecure-software)
+
 
 ## 5. Protect Your Browser
 
