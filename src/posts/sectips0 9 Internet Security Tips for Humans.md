@@ -41,7 +41,7 @@ More information about each recommendation will be added as additional postings 
 [Full Article](/2015/02/16/how-to-scan-your-computer-for-insecure-software)
 
 
-## 5. Protect Your Web Browser
+## 5. [Protect Your Web Browser](/2015/02/25/protect-your-web-browsing-pt2)
 
 > Summary: Use anti-virus add-ons for browsers to give you stoplight colors for links and will scan pages and downloads. If you see red, DON'T click that link! Maybe also use [WOT "Web of Trust"](https://www.mywot.com/) to help learn if the site is considered "trustworty" by others.
 
