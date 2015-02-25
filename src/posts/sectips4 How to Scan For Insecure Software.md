@@ -9,7 +9,7 @@ template: post.html
 author: Bret Fisher
 draft: false
 ---
-*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
+*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series. If this is your first time here, read those articles first.*
 
 > Summary: Automatic Windows Updates aren't enough anymore. [Secunia PSI](http://secunia.com/products/consumer/) is fantastic free (for personal use) software for finding all the insecure software on your PC. Mark 30 minutes on your calendar every month to go through your major programs and check for updates.
 

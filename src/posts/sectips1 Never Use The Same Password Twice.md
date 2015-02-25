@@ -10,7 +10,7 @@ author: Bret Fisher
 draft: false
 ---
 
-*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
+*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series. If this is your first time here, read those articles first.*
 
 >Summary: To limit the damage of password theft, you need a different password for each website/app. Use a Password Manager ([LassPass](https://lastpass.com) recommended) to create and store unique passwords for each account.
 

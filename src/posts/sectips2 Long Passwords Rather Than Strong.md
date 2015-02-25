@@ -10,7 +10,7 @@ author: Bret Fisher
 draft: false
 ---
 
-*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
+*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series. If this is your first time here, read those articles first.*
 
 >Summary: Make your passwords longer and easier for you remember (or use a Password Manager) rather then random 8 characters. When it comes to computers guessing your password, they assume it's short. 13+ characters is great. Use words. Repeat things. But really, this is a backup plan to [Tip #1](/2015/01/27/never-use-the-same-password-twice/).
 

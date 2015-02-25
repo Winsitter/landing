@@ -10,7 +10,7 @@ author: Bret Fisher
 draft: false
 ---
 
-*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series.*
+*This is part of our **[9 Internet Security Tips for Humans](/2015/01/26/9-internet-security-tips-for-humans/)** series. If this is your first time here, read those articles first.*
 
 >Summary: Use [OpenDNS](https://www.opendns.com/home-internet-security/opendns-ip-addresses/) as your DNS Servers on home routers and at work (if possible). It is easy to do, has no downside or extra lag, and will protect you from known malicious websites that intend to do your browser and computer harm (or scam you of your personal info). Do it today!
 
