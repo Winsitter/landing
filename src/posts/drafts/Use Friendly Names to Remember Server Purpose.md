@@ -32,16 +32,16 @@ Winsitter gets it.  That's why we give you the ability to set a friendly name in
 
 1) Head over to your [Winsitter](https://dashboard.winsitter.com) dashboard and log in.  Find the machine you would like to set a friendly name for.
 
-![Dashboard before Friendly Names](http://winsitter.com/images/blog/friendly-names-01.png)
+![Dashboard before Friendly Names](http://winsitter.com/images/friendly-names-01.png)
 
 2) Press the **edit button** (it looks like a gear).  This will drop down the server properties.
 
-![Dashboard before Friendly Names](http://winsitter.com/images/blog/friendly-names-02.png)
+![Dashboard before Friendly Names](http://winsitter.com/images/friendly-names-02.png)
 
 3) Type in a friendly name.  This can be whatever you want, but we recommend you be descriptive.
 
 4) Press enter or the save icon.
 
-![Dashboard before Friendly Names](http://winsitter.com/images/blog/friendly-names-03.png)
+![Dashboard before Friendly Names](http://winsitter.com/images/friendly-names-03.png)
 
 5) Way to go!  Your server now has a friendly name.
