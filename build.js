@@ -45,7 +45,7 @@ Metalsmith(__dirname)
     destination: './' // relative to the build directory
   }))
   .use(sitemap({
-    ignoreFiles: [/(.*.png)|(.*.gif)|(.*.jpg)|(.*.css)|(.*.xml)|(.*.js)|(.*.ico)|(.DS_Store)/], // Matched files will be ignored
+    ignoreFiles: [/(.*.png)|(.*.gif)|(.*.jpg)|(.*.css)|(.*.xml)|(.*.js)|(.*.ico)|(.DS_Store)/i], // Matched files will be ignored
     output: 'sitemap.xml', // The location where the final sitemap should be placed
     urlProperty: 'path', // Key for URL property
     hostname: 'http://winsitter.com/',
