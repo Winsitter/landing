@@ -1,5 +1,5 @@
 ---
-title: "Use Friendly Names to Remember Server Purpose"
+title: Use Friendly Names to Remember Server Purpose
 stub: friendly-names
 date: 2015-03-04
 changefreq: weekly
@@ -7,7 +7,7 @@ priority: 0.7
 css-template: blog.css
 template: post.html
 author: Kevin Griffin
-draft: true
+draft: false
 ---
 
 Does your infrastructure have a "unique" way of naming servers?
@@ -45,4 +45,3 @@ Winsitter gets it.  That's why we give you the ability to set a friendly name in
 ![Dashboard before Friendly Names](http://winsitter.com/images/blog/friendly-names-03.png)
 
 5) Way to go!  Your server now has a friendly name.
-
