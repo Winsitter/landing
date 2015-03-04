@@ -26,9 +26,9 @@ Oy.  Try remembering which server THAT is at 2:00am when you're the person on ca
 ###Friendly Names
 Winsitter gets it.  That's why we give you the ability to set a friendly name in our dashboard.  It's perfect for those unexpected alerts when you don't have any reference to which machines are which.
 
-**A friendly name will be used on the dashboard and in any messaging sent to you by Winsitter.**
+>A friendly name will be used on the dashboard and in any messaging sent to you by Winsitter.
 
-####How to Configure Friendly Names
+###How to Configure Friendly Names
 
 1) Head over to your [Winsitter](https://dashboard.winsitter.com) dashboard and log in.  Find the machine you would like to set a friendly name for.
 
