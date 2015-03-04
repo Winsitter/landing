@@ -7,7 +7,7 @@ priority: 0.7
 css-template: blog.css
 template: post.html
 author: Kevin Griffin
-draft: false
+draft: true
 ---
 
 Does your infrastructure have a "unique" way of naming servers?
