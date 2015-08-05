@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>drafts</string>
+	</array>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>How does the Winsitter agent do background updates.md</string>
+		</array>
+		<array>
+			<string>Know Your Servers Broken Before Your Users.md</string>
+		</array>
+		<array>
+			<string>New Winsitter Beta Platform.md</string>
+		</array>
+		<array>
+			<string>sectips0 9 Internet Security Tips for Humans.md</string>
+		</array>
+		<array>
+			<string>sectips1 Never Use The Same Password Twice.md</string>
+		</array>
+		<array>
+			<string>sectips2 Long Passwords Rather Than Strong.md</string>
+		</array>
+		<array>
+			<string>sectips3 How to Protect Your Web Browsing.md</string>
+		</array>
+		<array>
+			<string>sectips4 How to Scan For Insecure Software.md</string>
+		</array>
+		<array>
+			<string>sectips5 Protect Your Browser.md</string>
+		</array>
+		<array>
+			<string>Windows Server Monitoring As A Service.md</string>
+		</array>
+		<array>
+			<string>Winsitter Development Update for 12-7-2012.md</string>
+		</array>
+		<array>
+			<string>Winsitter Whats Next.md</string>
+		</array>
+		<array>
+			<string>Winsitters safe from Heartbleed.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

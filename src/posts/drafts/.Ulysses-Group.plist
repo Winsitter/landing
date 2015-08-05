@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>Check For Updates Monthly.md</string>
+		</array>
+		<array>
+			<string>DFSN Warning 516.md</string>
+		</array>
+		<array>
+			<string>Disk Has Been Surprise Removed.md</string>
+		</array>
+		<array>
+			<string>Getting to the Beta.md</string>
+		</array>
+		<array>
+			<string>Print Queues Move to x64.md</string>
+		</array>
+		<array>
+			<string>sectips6 Protect Your Mobile.md</string>
+		</array>
+		<array>
+			<string>sectips7 Backup Your Data.md</string>
+		</array>
+		<array>
+			<string>sectips8 Encrypt Your Computer.md</string>
+		</array>
+		<array>
+			<string>sectips9 Enable Two Facter Authenication.md</string>
+		</array>
+		<array>
+			<string>template.md</string>
+		</array>
+		<array>
+			<string>You Deserve a MDT Server.md</string>
+		</array>
+	</array>
+</dict>
+</plist>
