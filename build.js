@@ -69,6 +69,6 @@ Metalsmith(__dirname)
   .use(templates({engine:'handlebars'}))
   // .use(watch())  // replaced with nodemon
   .build(function(err) {
-    if (err) throw err;
+    //if (err) throw err;
     console.log("Done building Metalsmith");
   });
