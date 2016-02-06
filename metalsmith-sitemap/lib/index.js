@@ -1,91 +1,138 @@
-var fs = require('fs'),
-  Handlebars = require('handlebars'),
-  _ = require('lodash'),
-  url = require('url'),
-  defaultsDeep = _.partialRight(_.merge, function deep(value, other) {
-    return _.merge(value, other, deep);
-  }),
-  resolve = function(object, property) {
-    return _.reduce(property.split('.'), function(o, p) {
-      return o ? o[p] : undefined;
-    }, object);
-  };
+/**
+ * Dependencies
+ */
+var identity = require('lodash.identity');
+var get = require('lodash.get');
+var is = require('is');
+var match = require('multimatch');
+var path = require('path');
+var pick = require('lodash.pick');
+var S = require('string');
+var sm = require('sitemap');
 
+/**
+ * Export plugin
+ */
 module.exports = plugin;
 
-function plugin(options) {
-  options = options || {};
+/**
+ * Metalsmith plugin for generating a sitemap.
+ *
+ * @param {String or Object} options
+ *   @property {Date} lastmod (optional)
+ *   @property {String} changefreq (optional)
+ *   @property {Boolean} omitExtension (optional)
+ *   @property {Boolean} omitIndex (optional)
+ *   @property {String} hostname
+ *   @property {String} output (optional)
+ *   @property {String} pattern (optional)
+ *   @property {String} priority (optional)
+ *   @property {String} urlProperty (optional)
+ *   @property {String} modifiedProperty (optional)
+ * @return {Function}
+ */
+function plugin(opts){
+  /**
+   * Init
+   */
+  opts = opts || {};
 
-  var templatesDir = __dirname + '/templates';
+  // Accept string option to specify the hostname
+  if (typeof opts === 'string') {
+    opts = { hostname: opts };
+  }
 
-  defaultsDeep(options, {
-    ignoreFiles: [],
-    output: 'sitemap.xml',
-    modifiedProperty: 'modified',
-    urlProperty: 'path',
-    hostname: '',
-    entryTemplate: templatesDir + '/entry.xml',
-    sitemapTemplate: templatesDir + '/sitemap.xml',
-    defaults: {
-      priority: 0.5,
-      changefreq: 'daily'
-    }
-  });
+  // A hostname should be specified
+  if (!opts.hostname) {
+    throw new Error('"hostname" option required');
+  }
 
-  var entryTemplate = fs.readFileSync(options.entryTemplate, {
-    encoding: 'utf8'
-  });
-  var sitemapTemplate = fs.readFileSync(options.sitemapTemplate, {
-    encoding: 'utf8'
-  });
+  // Map options to local variables and set defaults
+  var changefreq = opts.changefreq;
+  var hostname = opts.hostname;
+  var lastmod = opts.lastmod;
+  var omitExtension = opts.omitExtension;
+  var omitIndex = opts.omitIndex;
+  var output = opts.output || 'sitemap.xml';
+  var pattern = opts.pattern || '**/*.html';
+  var priority = opts.priority;
+  var urlProperty = opts.urlProperty || 'canonical';
+  var modifiedProperty = opts.modifiedProperty || 'lastmod';
 
-  entryTemplate = Handlebars.compile(entryTemplate);
-  sitemapTemplate = Handlebars.compile(sitemapTemplate);
-
+  /**
+   * Main plugin function
+   */
   return function(files, metalsmith, done) {
-    var entries,
-      entry,
-      file,
-      data;
+    // Create sitemap object
+    var sitemap = sm.createSitemap ({
+      hostname: hostname
+    });
 
-    entries = _(Object.keys(files)).map(function(file) {
-      data = files[file];
+    // Checks whether files should be processed
+    function check(file, frontmatter) {
+      // Only process files that match the pattern
+      if (!match(file, pattern)[0]) {
+        return false;
+      }
 
-      if (!shouldIgnore(file) || data.private) {
+      // Don't process private files
+      if (frontmatter.private) {
+        return false;
+      }
+
+      return true;
+    }
+
+    // Builds a url
+    function buildUrl(file, frontmatter) {
+      // Frontmatter settings take precedence
+      var canonicalUrl = get(frontmatter, urlProperty);
+      if (is.string(canonicalUrl)) {
+        return canonicalUrl;
+      }
+
+      // Remove index.html if necessary
+      if (omitIndex && path.basename(file) === 'index.html') {
+        return S(file).chompRight('index.html').s;
+      }
+
+      // Remove extension if necessary
+      if (omitExtension) {
+        return S(file).chompRight(path.extname(file)).s;
+      }
+
+      // Otherwise just use 'file'
+      return file;
+    }
+
+    Object.keys(files).forEach(function(file) {
+      // Get the current file's frontmatter
+      var frontmatter = files[file];
+
+      // Only process files that pass the check
+      if (!check(file, frontmatter)) {
         return;
       }
 
-      data.sitemap = data.sitemap || {};
+      // Create the sitemap entry (reject keys with falsy values)
+      var entry = pick({
+        changefreq: frontmatter.changefreq || changefreq,
+        priority: frontmatter.priority || priority,
+        lastmod: get(frontmatter, modifiedProperty) || lastmod
+      }, identity);
 
-      entry = _.defaults({
-        loc: url.resolve(options.hostname, resolve(data, options.urlProperty)),
-        lastmod: resolve(data, options.modifiedProperty),
-        changefreq: resolve(data, options.changefreq) || data.sitemap.changefreq,
-        priority: resolve(data, options.priority) || data.sitemap.priority
-      }, options.defaults);
+      // Add the url (which is allowed to be falsy)
+      entry.url = buildUrl(file, frontmatter);
 
-      return entryTemplate(entry);
-    }).compact().join('');
-
-    var contents = sitemapTemplate({
-      entries: entries
+      // Add the entry to the sitemap
+      sitemap.add(entry);
     });
-    files[options.output] = {
-      contents: new Buffer(contents)
+
+    // Create sitemap in files
+    files[output] = {
+      contents: new Buffer(sitemap.toString())
     };
 
     done();
   };
-
-  function shouldIgnore(file) {
-    return !_.some(options.ignoreFiles, function(ignore) {
-      return ignore.test(file);
-    });
-  }
-}
-
-function error(file, message) {
-  return message + '\nFile: ' + file +
-    '\nTo skip validation on this file add it to the ' +
-    'ignoreFiles array.\n\n';
 }

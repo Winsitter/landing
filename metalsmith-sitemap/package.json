@@ -1,11 +1,10 @@
 {
   "name": "metalsmith-sitemap",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A metalsmith plugin for generating a sitemap.xml file.",
   "main": "lib/index.js",
-  "files": ["lib/templates"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,17 @@
   },
   "homepage": "https://github.com/ExtraHop/metalsmith-sitemap",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "lodash": "^2.4.1"
+    "is": "^3.0.1",
+    "lodash.get": "^3.7.0",
+    "lodash.identity": "^3.0.0",
+    "lodash.pick": "^3.1.0",
+    "multimatch": "^2.0.0",
+    "sitemap": "^1.1.1",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^1.7.0",
+    "mocha": "^2.2.5"
   }
 }
