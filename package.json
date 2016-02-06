@@ -12,7 +12,7 @@
     "lodash": "^3.10.1",
     "metalsmith": "^2.1.0",
     "metalsmith-assets": "0.1.0",
-    "metalsmith-build-date": "^0.1.0",
+    "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-copy": "^0.2.1",
     "metalsmith-drafts": "^0.0.1",
